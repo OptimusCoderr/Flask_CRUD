@@ -1,0 +1,59 @@
+body {
+  background-color: wheat;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: wheat;
+}
+
+.content {
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+}
+.content h1 {
+  color: #333;
+}
+.content h4 {
+  color: #999;
+}
+.content table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+.content table th, .content table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.content table th th, .content table td th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+.content a {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 20px;
+  background-color: blue;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.content a:hover {
+  background-color: lightblue;
+}
+.content a #btn_add {
+  background-color: rgba(37, 216, 10, 0.6);
+  color: #fff;
+  cursor: pointer;
+}
+.content a #btn_add :hover {
+  background-color: rgb(8, 90, 8);
+}/*# sourceMappingURL=styles.css.map */

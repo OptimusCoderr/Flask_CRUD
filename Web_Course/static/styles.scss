@@ -1,0 +1,76 @@
+body{
+    background-color: wheat;
+}
+
+//color variables
+
+$primary_color: blue;
+$primary_hover_color: lightblue;
+$success_color:rgba(37, 216, 10, 0.6);
+$success_hover_color: rgb(8, 90, 8);
+$title_color: #333;
+$bg_color: wheat;
+
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: $bg_color;
+}
+
+.content{
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+
+    h1{
+        color: $title_color;
+    }
+    h4{
+        color: #999;
+    }
+    table{
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+        th,td{
+            padding: 10px;
+            border: 1px solid #ccc;
+
+            th{
+                background-color: #f0f0f0;
+                color: #333;
+            }
+        }
+    }
+    a{
+        display: inline-block;
+        padding: 8px 16px;
+        margin: 5px;
+        border-radius: 20px;
+        background-color: $primary_color;
+        color: #fff;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+
+        &:hover{
+            background-color: $primary_hover_color;
+
+        }
+        #btn_add{
+            background-color: $success_color;
+            color:#fff;
+            cursor: pointer;
+            :hover{
+                background-color: $success_hover_color;
+            }
+        }
+
+    }
+}
+
